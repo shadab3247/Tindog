@@ -177,3 +177,27 @@ p {
     transform: rotate(0);
   }
 }
+/*************media query****************/
+@media screen and (max-width: 580px){
+  .cloud2{
+    position: absolute;
+    right: 300px;
+    bottom: 300px;
+    width: 20%;
+  }
+  .cloud1{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    width: 20%;
+  }
+  .mountain{
+    width:100%
+  }
+  .skill-row{
+    width: 80%;
+    margin: 10px auto 10px auto;
+    text-align: left;
+    line-height: 2;
+  }
+}
